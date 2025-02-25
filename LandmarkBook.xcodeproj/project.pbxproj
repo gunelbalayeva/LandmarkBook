@@ -13,6 +13,7 @@
 		CE4B06482D61DD4D0033BDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B06462D61DD4D0033BDD3 /* Main.storyboard */; };
 		CE4B064A2D61DD4F0033BDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4B06492D61DD4F0033BDD3 /* Assets.xcassets */; };
 		CE4B064D2D61DD4F0033BDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B064B2D61DD4F0033BDD3 /* LaunchScreen.storyboard */; };
+		CE4B06552D620EEE0033BDD3 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B06542D620EEE0033BDD3 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE4B06492D61DD4F0033BDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4B064C2D61DD4F0033BDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4B064E2D61DD4F0033BDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4B06542D620EEE0033BDD3 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE4B06492D61DD4F0033BDD3 /* Assets.xcassets */,
 				CE4B064B2D61DD4F0033BDD3 /* LaunchScreen.storyboard */,
 				CE4B064E2D61DD4F0033BDD3 /* Info.plist */,
+				CE4B06542D620EEE0033BDD3 /* DetailsVC.swift */,
 			);
 			path = LandmarkBook;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4B06452D61DD4D0033BDD3 /* ViewController.swift in Sources */,
+				CE4B06552D620EEE0033BDD3 /* DetailsVC.swift in Sources */,
 				CE4B06412D61DD4D0033BDD3 /* AppDelegate.swift in Sources */,
 				CE4B06432D61DD4D0033BDD3 /* SceneDelegate.swift in Sources */,
 			);
